@@ -23,6 +23,9 @@ export default function MainLayout() {
             <Link to="/analytics" className="hover:text-black">
               Analytics
             </Link>
+            {/* <Link to="/ai-analysis" className="hover:text-black">
+              AI Analysis
+            </Link> */}
             <Link to="/resources" className="hover:text-black">
               Resources
             </Link>

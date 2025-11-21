@@ -10,6 +10,7 @@ import ConsumptionPage from "./pages/ConsumptionPage";
 import AnalyticsPage from "./pages/AnalyticsPage";
 import AuthProvider from "../providers/AuthProvider";
 import Dashboard from "./pages/DashboardMain";
+import AiPage from "./pages/AiPage";
 import MainLayout from "../layouts/MainLayout";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path="/analytics" element={<AnalyticsPage />} />
             <Route path="/inventory" element={<InventoryPage />} />
             <Route path="/consumption" element={<ConsumptionPage />} />
+            <Route path="/ai-analysis" element={<AiPage />} />
             <Route path="/dashboard" element={<Dashboard />} />
           </Route>
         </Routes>

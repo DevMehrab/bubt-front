@@ -112,10 +112,10 @@ export default function Dashboard() {
 
         <div className="grid sm:grid-cols-2 gap-4">
           <a
-            href="/track-waste"
+            href="/inventory"
             className="p-5 bg-blue-600 text-white rounded-xl text-center shadow-md hover:bg-blue-700"
           >
-            Track Food Waste
+            Check Inventry
           </a>
 
           <a
